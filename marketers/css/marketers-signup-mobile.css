@@ -1,0 +1,223 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat;
+}
+
+#header-section{
+  display: block;
+  float: left;
+  width: 100%;
+  height: 50px;
+  background: #ff4500;
+}
+
+#header-section img{
+  max-width: 120px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#first-section{
+  display: block;
+  float: left;
+  width: 100%;
+  height: 32%;
+  background-color: #ff4500;
+  text-align: center;
+  padding-left: 14px;
+  
+}
+#img-sect{
+  max-width: 130px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#first-section h1{
+  color: white;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+#first-section p{
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+#form-section{
+  display: block;
+  float: left;
+  width: 100%;
+  height: 60%;
+  background: #ff4500;
+}
+
+#form{
+  display: block;
+  float: left;
+  width: 75%;
+  height: 95%;
+  outline: 1px solid white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-top: 0px;
+  background-color: white;
+}
+
+input{
+  width: 70%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+
+}
+
+#name-div{
+  display: flex;
+  gap: 11%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#email-div{
+  display: flex;
+  gap: 12%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#date-div{
+  display: flex;
+  gap: 12%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#phone-div{
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#form button{
+  display: flex;
+  width: 70%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 28%;
+  background-color: green;
+  border: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+#form #btn{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 3%;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    float: right;
+  
+}
+#form p{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+#form-p{
+  display: block;
+  position: relative;
+  margin-top: 70px;
+  text-align: center;
+  margin-left: 100px;
+}
+label{
+  font-size: 18px;
+}
+
+@media screen and (min-width: 540px){
+  #form button{
+    display: flex;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 25%;
+    background-color: green;
+    border: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #form #btn{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 5%;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    float: right;
+  
+  }
+  #form p{
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    
+    margin-left: 32%;
+  }
+}
+
+@media screen and (min-width: 660px){
+  #form button{
+    display: flex;
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 22%;
+    background-color: green;
+    border: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #form #btn{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 8%;
+    background-color: #ff4500;
+    border: none;
+    color: white;
+    float: right;
+  
+  }
+
+  #form p{
+    display: block;
+    position: relative;
+    margin-top: 15px;
+    
+    margin-left: 32%;
+  }
+}
